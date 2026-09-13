@@ -62,3 +62,6 @@ jobs:
           role-to-assume: arn:aws:iam::205950089606:role/GitHubActions-ML-Iris
           aws-region: eu-north-1
           role-session-name: GitHubActionsSession
+
+      - name: Test AWS access
+        run: aws sts get-caller-identity
