@@ -378,7 +378,7 @@ Iris-ML-classification-with-DVC-and-MLflow/
 ## 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/AmitKumarSinghAI/Iris-ML-classification-with-DVC-and-MLflow.git
 ```
 
 Move into the project directory:
