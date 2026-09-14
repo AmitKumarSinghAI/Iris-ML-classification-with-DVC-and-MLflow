@@ -641,20 +641,10 @@ The project can be extended with:
 
 # 👨‍💻 Author
 
-**Amit Kumar Singh**
+**Amit Kumar Singh Kurmi**
 
-Computer Science Student | Aspiring GenAI / ML Engineer
+Computer Science Student | Aspiring GenAI / ML Engineer / AI Engineer
 
-Interested in:
-
-* Machine Learning
-* Generative AI
-* MLOps
-* AI Automation
-* Cloud Computing
-* DevOps
-
----
 
 # ⭐ If You Like This Project
 
