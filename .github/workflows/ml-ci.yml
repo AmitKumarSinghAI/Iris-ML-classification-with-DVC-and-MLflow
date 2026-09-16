@@ -95,6 +95,13 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha
 
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: arn:aws:iam::205950089606:role/GitHubActions-ML-Iris
+          aws-region: eu-north-1
+          role-session-name: GitHubActionsSession
+
       - name: Login to Amazon ECR
         uses: aws-actions/amazon-ecr-login@v2
         id: login-ecr
