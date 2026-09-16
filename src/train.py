@@ -25,8 +25,8 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 
 # Parameters
-n_estimators = 200
-max_depth = 3
+n_estimators = 100
+max_depth = 2
 
 
 # Model
@@ -43,7 +43,7 @@ model = RandomForestClassifier(
 mlflow.set_experiment("Iris Classification")
 
 
-with mlflow.start_run(run_name="5 run"):
+with mlflow.start_run(run_name="6 run"):
 
     # Train
     model.fit(X_train, y_train)
