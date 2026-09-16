@@ -53,6 +53,7 @@ jobs:
 
       - name: Login to Amazon ECR
         uses: aws-actions/amazon-ecr-login@v2
+        id: login-ecr
 
       - name: Tag Docker images
         run:  docker tag iris-ml:latest \ 205950089606.dkr.ecr.eu-north-1.amazonaws.com/iris-ml
