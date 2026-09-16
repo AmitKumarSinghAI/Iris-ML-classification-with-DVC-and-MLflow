@@ -55,8 +55,8 @@ jobs:
         uses: aws-actions/amazon-ecr-login@v2
         id: login-ecr
 
-      - name: Tag Docker images
-        run:  docker tag iris-ml:latest \ 205950089606.dkr.ecr.eu-north-1.amazonaws.com/iris-ml
+      - name: Tag Docker image
+        run: docker tag iris-ml:latest 205950089606.dkr.ecr.eu-north-1.amazonaws.com/iris-ml:latest
 
       - name: Push image to ECR
-        run: docker push \ 205950089606.dkr.ecr.eu-north-1.amazonaws.com/iris-ml
+        run: docker push 205950089606.dkr.ecr.eu-north-1.amazonaws.com/iris-ml:latest
